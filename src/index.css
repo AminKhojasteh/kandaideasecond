@@ -1,0 +1,52 @@
+@font-face {
+  font-family: "IranYekan";
+  src: url("./assets/fonts/iranyekanwebthinfanum.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: "IranYekan";
+  src: url("./assets/fonts/iranyekanweblightfanum.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "IranYekan";
+  src: url("./assets/fonts/iranyekanwebregularfanum.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "IranYekan";
+  src: url("./assets/fonts/iranyekanwebmediumfanum.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "IranYekan";
+  src: url("./assets/fonts/iranyekanwebboldfanum.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "IranYekan";
+  src: url("./assets/fonts/iranyekanwebextraboldfanum.woff") format("woff");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: "IranYekan";
+  src: url("./assets/fonts/iranyekanwebblackfanum.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "IranYekan";
+  src: url("./assets/fonts/iranyekanwebextrablackfanum.woff") format("woff");
+  font-weight: 950;
+  font-style: normal;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
