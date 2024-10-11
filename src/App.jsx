@@ -16,6 +16,7 @@ import Signup from "./pages/Signup";
 import Profile from "./pages/Profile";
 import Home from "./pages/Home";
 import Forget from "./pages/Forget";
+import NotFound from "./pages/NotFound";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -25,6 +26,7 @@ const router = createBrowserRouter(
       <Route path="/signup" element={<Signup />} />
       <Route path="/profile" element={<Profile />} />
       <Route path="/forget" element={<Forget />} />
+      <Route path="*" element={<NotFound />} />
     </Route>,
   ),
 );

@@ -17,7 +17,7 @@ function RootLayout() {
     <div className="mx-auto h-screen max-w-[100rem] px-5 font-yekan">
       <nav className="mb-10 flex h-20 items-center justify-between bg-violet-500 pl-10 pr-5">
         <div className="flex h-full items-center gap-2 py-2">
-          <img src="./src/assets/icons/main-logo.svg" className="h-full" />
+          <img src="./icons/main-logo.svg" className="h-full" />
           <Link to="/" className="text-4xl font-extrabold text-white">
             کندا ایده
           </Link>

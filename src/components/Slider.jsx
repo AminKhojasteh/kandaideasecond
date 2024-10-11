@@ -43,7 +43,7 @@ function Slider() {
           key={desc}
           style={{
             transform: `translateX(${translates[index]}rem)`,
-            backgroundImage: `url(./src/assets/imgs/${slidesPhotosFiles[index]})`,
+            backgroundImage: `url(./imgs/${slidesPhotosFiles[index]})`,
             zIndex: `${translates[index] === 0 || translates[index] === 30 || translates[index] === -30 ? "10" : "0"}`,
           }}
           className={`absolute left-0 top-0 h-[30rem] w-[30rem] rounded-md bg-cover bg-center transition-transform duration-500`}
